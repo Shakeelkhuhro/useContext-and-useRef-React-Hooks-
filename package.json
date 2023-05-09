@@ -15,7 +15,7 @@
   "scripts": {
     "deploy": "gh-pages -d build",
     "postdeploy": "rm -rf node_modules/.cache && echo 'Deploy Complete!'",
-    "predeploy":"npm srun build",
+    "predeploy": "npm srun build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
